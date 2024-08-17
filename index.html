@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Webpage</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="bg-primary text-white text-center py-4">
+    <h1>Welcome to My Personal Webpage</h1>
+  </header>
+  
+  <div class="container mt-5">
+    <section class="mb-4">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Kaylen Ramish, a passionate software developer with a focus on web technologies. With years of experience in various programming languages and frameworks, I thrive on solving complex problems and creating innovative solutions that make a difference.
+      </p>
+      <p>
+        My expertise lies in front-end development, including HTML, CSS, and JavaScript, and I enjoy building interactive, user-friendly interfaces. I value clear communication and teamwork, which I believe are crucial for successful project outcomes.
+      </p>
+      <p>
+        Currently, I'm looking for new opportunities to collaborate on exciting projects. Feel free to reach out to me if you'd like to discuss potential collaborations or have any questions.
+      </p>
+    </section>
+    
+    <section class="mb-4">
+      <h2>Contact Details</h2>
+      <p>
+        Name: Kaylen Ramish<br>
+        Phone: +2761 250 2655<br>
+        Email: <a href="mailto:kaylenramish@gmail.com">kaylenramish@gmail.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/kaylenramish" target="_blank">linkedin.com/in/kaylenramish</a>
+      </p>
+      <img src="20220503_083421.jpg" alt="Kaylen Ramish" class="img-fluid rounded-circle" style="max-width: 300px;">
+    </section>
+    
+    <section class="mb-4">
+      <h2>Skills and Competencies</h2>
+      <ul class="list-group">
+        <li class="list-group-item">HTML5</li>
+        <li class="list-group-item">CSS3</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">React.js</li>
+        <li class="list-group-item">Node.js</li>
+        <li class="list-group-item">SQL</li>
+        <li class="list-group-item">Git</li>
+        <li class="list-group-item">Agile Development</li>
+      </ul>
+    </section>
+    
+    <section class="mb-4">
+      <h2>Education</h2>
+      <p>
+        Bachelor of Science in Computer Science<br>
+        University of South Africa (2023)
+      </p>
+    </section>
+    
+    <section class="mb-4">
+      <h2>Work Experience</h2>
+      <p>
+        <strong>Software Developer at Axis (2020 - present)</strong><br>
+        - Developed and maintained web applications using HTML, CSS, and JavaScript.<br>
+        - Collaborated with cross-functional teams to design and implement new features.<br>
+        - Conducted code reviews and performed quality assurance testing.
+      </p>
+      <p>
+        <strong>Junior Developer at Microsoft (2011 - 2019)</strong><br>
+        - Assisted in building responsive websites using modern front-end frameworks.<br>
+        - Contributed to the development of mobile applications using React Native.<br>
+        - Worked closely with clients to understand their requirements and deliver tailored solutions.
+      </p>
+    </section>
+    
+    <section class="mb-4">
+      <h2>Search</h2>
+      <form action="/search" method="get">
+        <div class="form-group">
+          <label for="search">Search Keywords:</label>
+          <input type="text" id="search" name="search" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+    </section>
+    
+    <section class="mb-4">
+      <h2>Contact Me</h2>
+      <form action="/contact" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </section>
+  </div>
+  
+  <footer class="bg-primary text-white text-center py-3">
+    <p>&copy; 2024 Kaylen Ramish. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #fff;
+$accent-color: #f4f4f4;
+$font-stack: Arial, sans-serif;
+
+// Base Styles
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: $accent-color;
+}
+
+header {
+  background: $primary-color;
+  color: $secondary-color;
+  padding: 1em 0;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+section {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  background: $secondary-color;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  h2 {
+    border-bottom: 2px solid $primary-color;
+    padding-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      background: $accent-color;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  }
+}
+
+footer {
+  background: $primary-color;
+  color: $secondary-color;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
