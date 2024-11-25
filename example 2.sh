@@ -1,0 +1,2 @@
+mkdir myfolder
+cd subfolder
